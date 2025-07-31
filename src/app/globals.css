@@ -20,6 +20,24 @@
 }
 
 body {
-  background-image:url"/img/home.jpg";
   font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  
+  background-image:url("/img/");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.image-slider-container {
+  margin: 1% 5%;
+  width: 90%;
+}
+
+.image-slider-container .slick-prev:before,
+.image-slider-container .slick-next:before {
+  color: black;
 }
